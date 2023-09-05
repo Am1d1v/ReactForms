@@ -1,5 +1,5 @@
 import './App.css';
-import Subscription from './SubscriptionForm';
+import FormWithRef from './FormWithRef';
 
 
 
@@ -8,7 +8,7 @@ import Subscription from './SubscriptionForm';
 function App() {
   return (
     <div className="App">
-     <Subscription />
+     <FormWithRef />
     </div>
   );
 }
