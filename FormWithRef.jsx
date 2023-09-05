@@ -23,12 +23,11 @@ class FormWithRef extends React.Component {
     }
 
 
-
-
     componentDidMount(){
         console.log(this.NumberRef)
         this.NumberRef.current.focus()
     }
+    
 
     render(){
 
@@ -41,11 +40,6 @@ class FormWithRef extends React.Component {
             </div>
         )
     }
-
-
-
-
-
 }
 
 export default FormWithRef;

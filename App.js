@@ -1,6 +1,5 @@
 import './App.css';
-import FormWithRef from './FormWithRef';
-
+import UncontrolledForm from './UncontrolledForm';
 
 
 
@@ -8,7 +7,7 @@ import FormWithRef from './FormWithRef';
 function App() {
   return (
     <div className="App">
-     <FormWithRef />
+      <UncontrolledForm />
     </div>
   );
 }
